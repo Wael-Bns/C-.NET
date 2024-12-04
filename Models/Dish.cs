@@ -10,6 +10,5 @@
 
         public List<DishIngredient>? DishIngredients { get; set; }
 
-
     }
 }
