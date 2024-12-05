@@ -1,7 +1,17 @@
+using Menu.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<MenuContext>(options => 
+        options.UseMySql(
+            builder.Configuration.GetConnectionString("DefaultConnectionString"),
+            new MySqlServerVersion(new Version(10,4,32))
+        )
+        );
 
 var app = builder.Build();
 
