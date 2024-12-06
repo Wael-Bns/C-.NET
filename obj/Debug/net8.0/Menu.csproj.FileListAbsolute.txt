@@ -140,3 +140,4 @@ C:\Users\wwael\source\repos\Menu\Menu\obj\Debug\net8.0\refint\Menu.dll
 C:\Users\wwael\source\repos\Menu\Menu\obj\Debug\net8.0\Menu.pdb
 C:\Users\wwael\source\repos\Menu\Menu\obj\Debug\net8.0\Menu.genruntimeconfig.cache
 C:\Users\wwael\source\repos\Menu\Menu\obj\Debug\net8.0\ref\Menu.dll
+C:\Users\wwael\source\repos\Menu\Menu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
